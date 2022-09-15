@@ -1,0 +1,20 @@
+{
+  "name": "serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^17.1.3",
+    "zyte-smartproxy-puppeteer": "^1.0.13"
+  }
+}
